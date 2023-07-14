@@ -329,21 +329,21 @@ function Sidebar() {
             <Link to="/" className="link">
               <ListItem>
                 <LineStyle className="icon" />
-                <div onMouseEnter={openModal1}>Home</div>
+                <div onClick={openModal1}>Home</div>
               </ListItem>
             </Link>
             <ListItem>
               <Timeline className="icon" />
-              <div onMouseEnter={openModal2}>Analytics</div>
+              <div onClick={openModal2}>Analytics</div>
             </ListItem>
             <ListItem>
               <TrendingUp className="icon" />
-              <div onMouseEnter={openModal2}>Sales</div>
+              <div onClick={openModal2}>Sales</div>
             </ListItem>
             <Link to="/users" className="link">
               <ListItem>
                 <Group className="icon" />
-                <div onMouseEnter={openModal3}>Users</div>
+                <div onClick={openModal3}>Users</div>
               </ListItem>
             </Link>
           </List>
@@ -351,24 +351,24 @@ function Sidebar() {
           <List>
             <ListItem>
               <Info className="icon" />
-              <div onMouseEnter={openModal4}>About</div>
+              <div onClick={openModal4}>About</div>
             </ListItem>
             <Link to="/products" className="link">
               <ListItem>
                 <Storefront className="icon" />
-                <div onMouseEnter={openModal5}>Products</div>
+                <div onClick={openModal5}>Products</div>
               </ListItem>
             </Link>
             <ListItem>
               <AttachMoney className="icon" />
-              <div onMouseEnter={openModal6}>Transactions</div>
+              <div onClick={openModal6}>Transactions</div>
             </ListItem>
             <ListItem>
               <BarChart className="icon" />
-              <div onMouseEnter={openModal7}>Reports</div>
+              <div onClick={openModal7}>Reports</div>
             </ListItem>
           </List>
-          <Title onMouseEnter={openModal8}>Notifications</Title>
+          <Title onClick={openModal8}>Notifications</Title>
           <List>
             <ListItem>
               <MailOutline className="icon" />

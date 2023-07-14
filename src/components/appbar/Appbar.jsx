@@ -132,7 +132,7 @@ function Appbar() {
         </TopLeft>
         <TopRight>
           <IconContainer>
-            <NotificationsNone onMouseEnter={openModal1}/>
+            <NotificationsNone onClick={openModal1}/>
             <TopIconBadge>2</TopIconBadge>
           </IconContainer>
           <IconContainer>
@@ -140,9 +140,9 @@ function Appbar() {
             <TopIconBadge>2</TopIconBadge>
           </IconContainer>
           <IconContainer>
-            <Settings onMouseEnter={openModal2} />
+            <Settings onClick={openModal2} />
           </IconContainer>
-          <TopAvatar onMouseEnter={openModal3} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHoqg4ikD0Gp1l_yc2jpvEdN8Xddy03FZgQ&usqp=CAU" />
+          <TopAvatar onClick={openModal3} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHoqg4ikD0Gp1l_yc2jpvEdN8Xddy03FZgQ&usqp=CAU" />
         </TopRight>
       </Wrapper>
     </Container>
