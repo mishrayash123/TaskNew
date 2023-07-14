@@ -187,6 +187,7 @@ function Sidebar() {
         }}
       >
         <p>User's Data/List </p>
+        <p>You can edit and delete</p>
         <button style={{backgroundColor:"black",color:"white",padding:10,borderRadius:'25%',marginTop:5}} onClick={closeModal3}> OK </button>
       </Modal3>
       <Modal4
